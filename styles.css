@@ -1,0 +1,25 @@
+body {
+    font: caption;
+    color: black;
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    border: 1px solid black;
+    width: 340px;
+    margin-left: 508px;
+    margin-top: 84px;
+    text-align: center;
+
+
+    
+}
+h1{
+    color: rgb(196, 109, 123);
+}
+h2{
+    color: black;
+}
+p{
+    color: red;
+}
