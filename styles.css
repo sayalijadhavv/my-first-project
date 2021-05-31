@@ -1,25 +1,73 @@
-body {
-    font: caption;
+.login {    font: caption;
     color: black;
-    background-image: url('images.jpg');
+    background-image: url('donut.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
     border: 1px solid black;
-    width: 340px;
-    margin-left: 508px;
+    width: 600px;
+    margin-left: 408px;
     margin-top: 84px;
     text-align: center;
 
 
     
 }
+
 h1{
     color: rgb(196, 109, 123);
+    text-align: center;
+    font-size: 89px;
 }
 h2{
-    color: black;
+    color: rgb(202, 216, 219);
 }
 p{
-    color: red;
+    color: rgb(190, 203, 206);
+    font: bolder;
 }
+.btn {color: black(18, 15, 20);}
+.btn-info {color: black(24, 18, 16);}
+.btn {background-color: rgb(196, 109, 123);}
+.dropbtn {
+    background-color: #a7bd7f;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+    border:black ;border-width: medium;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #64a8c7;
+  }
+  .dropbtn{background-color: salmon;
+border-style: solid;}
+  
